@@ -4,10 +4,10 @@ import json
 import csv
 # Enter your keys/secrets as strings in the following fields
 credentials = {}
-credentials['CONSUMER_KEY'] = 'v3l3OYpM4sd7MgiYL4GrX2eHf'
-credentials['CONSUMER_SECRET'] = '8Mfydb6NbauCXoz72vRPwJWBxaeKu3K3w2YwUezqaUIj2Wh9e7'
-credentials['ACCESS_TOKEN'] = '1034663748286533632-pDZr9bs94fdlgYW8gMxtdbzqCakFg3'
-credentials['ACCESS_SECRET'] = 'XXiYXIl1fxJPuoR8QDPMN257D8RbaRJwpWBsEaVGyxx9h'
+credentials['CONSUMER_KEY'] = ''
+credentials['CONSUMER_SECRET'] = ''
+credentials['ACCESS_TOKEN'] = ''
+credentials['ACCESS_SECRET'] = ''
 
 auth = tweepy.OAuthHandler(credentials.get('CONSUMER_KEY'), credentials.get('CONSUMER_SECRET'))
 auth.set_access_token(credentials.get('ACCESS_TOKEN'), credentials.get('ACCESS_SECRET'))
